@@ -4,7 +4,7 @@ Write a simple Python program for the construction and reconstruction of ideal, 
 # Tools required
 Python IDE
 # Program
-Ideal Sampling
+# Ideal Sampling
 
 ```
 import numpy as np
@@ -45,7 +45,7 @@ plt.grid(True)
 plt.legend()
 plt.show()
 ```
-Natural Sampling
+# Natural Sampling
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-Flat-topped Sampling
+# Flat-topped Sampling
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -160,20 +160,21 @@ plt.tight_layout()
 plt.show()
 ```
 # output waveform
+
 Ideal Sampling
-```
+
 <img width="866" height="393" alt="image" src="https://github.com/user-attachments/assets/828c2b36-6543-4265-9bd7-8a79cd9a1767" />
 <img width="866" height="393" alt="image" src="https://github.com/user-attachments/assets/29e1b993-6c63-4ecc-8ebd-2ca13f02fd00" />
 <img width="866" height="393" alt="image" src="https://github.com/user-attachments/assets/c9fbbf4d-488d-4d3d-a1e0-de61ec537484" />
-```
+
 Natural Sampling
-```
+
 <img width="1390" height="989" alt="image" src="https://github.com/user-attachments/assets/ddcb308d-bb7e-4d22-8aa0-9a11ec92bd07" />
-```
+
 Flat-topped Sampling
-```
+
 <img width="1398" height="990" alt="image" src="https://github.com/user-attachments/assets/d82f90de-d882-4ea2-a02b-f5b866e8c8ee" />
-```
+
 # Results
 
 Thus, the construction and reconstruction of Ideal, Natural, and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
